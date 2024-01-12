@@ -22,7 +22,7 @@ const todoList = document.querySelector(".task__list");
 let count = 0;
 
 function createtask(task) {
-  let { tasktext, isDone } = task; // Обратите внимание на регистр isDone
+  let { tasktext, isDone } = task; 
   const item = document.createElement("li");
   item.className = "list";
 
@@ -31,11 +31,11 @@ function createtask(task) {
   const input = document.createElement("input");
   input.type = "checkbox";
   input.checked = isDone;
-  input.className = "item-"; // Исправлен класс
+  input.className = "item-"; 
 
   const text = document.createElement("p");
   text.className = "textEl";
-  text.textContent = tasktext; // Исправлено
+  text.textContent = tasktext; 
 
   const img = document.createElement("img");
   img.src = "img/Vector.png";
@@ -70,8 +70,3 @@ function addTaskToDoList(element) {
 }
 
 pushButton.addEventListener("click", addTaskToDoList);
-
-//let taskTwo = {
-//  taskList: "One task",
-//  isDone: false,
-//};
