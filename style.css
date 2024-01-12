@@ -1,0 +1,108 @@
+.wrapper {
+  background-color: #e6e6e6;
+  border-radius: 15px;
+  border: #e6e6e6 solid 1px;
+  padding-left: 450px;
+}
+.add {
+  margin-top: 44px;
+  display: flex;
+}
+.input {
+  background-color: white;
+  border-radius: 10px 0px 0px 10px;
+  width: 359px;
+  height: 66px;
+  border: none;
+  outline: none;
+  font-size: 26px;
+  padding-left: 14px;
+}
+.button {
+  width: 160px;
+  /*height: 67px;*/
+  font-size: 18px;
+  line-height: 21.78px;
+  text-align: center;
+  background-color: #fbcc28;
+  border-radius: 0px 10px 10px 0px;
+  border: none;
+}
+.button:hover {
+  cursor: pointer;
+}
+.task {
+  width: 525px;
+  height: 621px;
+  border: none;
+  border-radius: 15px;
+  background-color: white;
+  margin-top: 22px;
+}
+.task__list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px;
+}
+.list {
+  width: 474px;
+  height: 85px;
+  border-radius: 10px;
+  background-color: #ffebeb;
+  border: none;
+  margin-top: 12px;
+  display: flex;
+  font-size: 18px;
+  position: relative;
+}
+.item- {
+  height: 25px;
+  width: 25px;
+  margin-left: 20px;
+  margin-top: 30px;
+  border: 1px solid #000000;
+}
+.item-sucess {
+  height: 25px;
+  width: 25px;
+  margin-left: 20px;
+  margin-top: 30px;
+  border: 1px solid #000000;
+  background-color: white;
+}
+.list- {
+  background-color: #ebffed;
+  width: 474px;
+  height: 85px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 12px;
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  text-decoration: line-through;
+}
+.textEl{
+  text-decoration:  none
+}
+.textElSub{
+  text-decoration: line-through;
+}
+.img {
+  padding-left: 370px;
+  padding-top: 25px;
+  width: 29px;
+  height: 32px;
+}
+p {
+  display: inline;
+  width: 139px;
+  margin-left: 8px;
+  white-space: nowrap;
+  position: absolute;
+  padding-top: 13px;
+}
